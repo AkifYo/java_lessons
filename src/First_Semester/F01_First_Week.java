@@ -1,6 +1,6 @@
 package First_Semester;
 
-public class First_Week {
+public class F01_First_Week {
 
     public static void main(String[] args) {
 
