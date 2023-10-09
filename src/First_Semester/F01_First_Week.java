@@ -3,7 +3,6 @@ package First_Semester;
 public class F01_First_Week {
 
     public static void main(String[] args) {
-
        // String yazi= "Javaya Hosgeldin";
 
         //char a='R';
@@ -13,8 +12,6 @@ public class F01_First_Week {
         int sayi2= 5;
 
         System.out.println(sayi1);
-
-
     }
 
 }
