@@ -22,7 +22,7 @@ public class F04_Fourth_Week {
         String yourName= scan.next();
 
 
-        System.out.println("LUTFEN SOYISMINIZ GIRINIZ : ");
+        System.out.println("LUTFEN SOYISMINIZI GIRINIZ : ");
         //Simdi soyismini string degiskenime atadim.
         String yourSurname= scan.next();
 
