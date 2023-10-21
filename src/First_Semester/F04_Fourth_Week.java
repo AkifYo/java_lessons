@@ -7,7 +7,7 @@ public class F04_Fourth_Week {
         // S07 Patlican medikal centrumda giris memuru olarak,
         // kayyda gelen hastalarin isim, soyisim ve kimlik numarasi, ve yasini alarak,
         // asagidaki formule gore odemesi gereken faturayi yazdirin.
-        // Faturada Isim soyisim kinmlik numarasi, yasi ve fiyat olsun.
+        // Faturada Isim soyisim kimlik numarasi, yasi ve fiyat olsun.
         // Tam muayene ucreti 500TL   KDV 0.18
 
         //=======================================================
