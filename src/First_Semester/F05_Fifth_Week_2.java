@@ -22,7 +22,8 @@ public class F05_Fifth_Week_2 {
         } else if (speedBekir>90 & speedBekir <=110) {
             System.out.println("Bekir su an 350 dolar odemelisin");
         } else {
-            System.out.println("Bekir su an ehliyeti birakmalisin");
+
+            System.out.println("Bekir su an ehliyeti birakmalisin!");
         }
     }
 }
