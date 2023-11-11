@@ -36,5 +36,4 @@ public class F07_Seventh_Week_2 {
                 System.out.println("Lutfen dort islemden birini giriniz...");
         }
     }
-
 }
