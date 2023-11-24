@@ -21,9 +21,9 @@ Kova Burcu : 22 Ocak - 19 Şubat
 Balık Burcu : 20 Şubat - 20 Mart
          */
         System.out.println("Lutfen kacinci ayda dogdugunuzu rakam olarak giriniz :");
-        int userAgeMonth= scan.nextInt();
+        int userAgeMonth = scan.nextInt();
         System.out.println("Lutfen ayin kacinci gununde dogdugunuzu rakam olara giriniz :");
-        int userAgeDay= scan.nextInt();
+        int userAgeDay = scan.nextInt();
 
         switch (userAgeMonth) {
             case 1:
@@ -36,78 +36,77 @@ Balık Burcu : 20 Şubat - 20 Mart
             case 2:
                 if (userAgeDay > 19) {
                     System.out.println("Burcunuz ***BALIK***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***KOVA***");
                 }
                 break;
             case 3:
                 if (userAgeDay > 20) {
                     System.out.println("Burcunuz ***KOC***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***BALIK***");
                 }
                 break;
             case 4:
                 if (userAgeDay > 20) {
                     System.out.println("Burcunuz ***BOGA***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***KOC***");
                 }
                 break;
             case 5:
                 if (userAgeDay > 21) {
                     System.out.println("Burcunuz ***IKIZLER***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***BOGA***");
                 }
                 break;
             case 6:
                 if (userAgeDay > 22) {
                     System.out.println("Burcunuz ***YENGEC***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***IKIZLER***");
                 }
                 break;
             case 7:
                 if (userAgeDay > 22) {
                     System.out.println("Burcunuz ***ASLAN***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***YENGEC***");
                 }
                 break;
             case 8:
                 if (userAgeDay > 22) {
                     System.out.println("Burcunuz ***BASAK***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***ASLAN***");
                 }
                 break;
             case 9:
                 if (userAgeDay > 20) {
                     System.out.println("Burcunuz ***TERAZI***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***BASAK***");
                 }
                 break;
             case 10:
                 if (userAgeDay > 21) {
                     System.out.println("Burcunuz ***AKREP***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***TERAZI***");
                 }
                 break;
             case 11:
                 if (userAgeDay > 21) {
                     System.out.println("Burcunuz ***YAY***");
-                }else {
+                } else {
                     System.out.println("Burcunuz ***AKREP***");
                 }
                 break;
             case 12:
                 if (userAgeDay > 20) {
                     System.out.println("Burcunuz ***OGLAK***");
-                }
-                else {
+                } else {
                     System.out.println("Burcunuz ***YAY***");
                 }
                 break;
