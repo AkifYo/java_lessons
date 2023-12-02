@@ -6,6 +6,8 @@ public class F10_Tenth_Week {
     public static void main(String[] args) {
         //String, int, double, boolean, char,
         String text1 = "JavatoryadaJahve";
+        System.out.println(text1.contains("Java"));
+
         String text2 = "FIRST";
         String text3 = "BRICK";
         String text4 = "a";

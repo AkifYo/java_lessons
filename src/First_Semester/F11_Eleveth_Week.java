@@ -2,16 +2,38 @@ package First_Semester;
 
 import java.util.Scanner;
 
-public class F05_Fifth_Week_3 {
+public class F11_Eleveth_Week {
     public static void main(String[] args) {
-        //Hafsa donem sonu notlarini girip  harf notu olarak hangi puani aldigini
-        // gosteren bir program yazmak istemektedir Hafsaya yardimci olalim.
-        //  90-100 A,  75-90 B,  60- 75 arasi C, 45-60 D  45 ve asagisi F
+
+    //sayiToplam(6,7);
+    //sayiCarpimi(6,7);
+    //sayiBolumu(7,2);
+    //sayiFarki(56,23);
         Scanner input= new Scanner(System.in);
         System.out.println("Hafsa notun kac? ");
         int notHafsa= input.nextInt();
+        hafsaninNotu(notHafsa);
 
 
+    }
+
+    public  static  void sayiToplam(int sayi1, int sayi2){
+       int sayilarToplami=sayi1+sayi2;
+        System.out.println(sayilarToplami);
+    }
+    public  static  void sayiCarpimi(int sayi1, int sayi2){
+        int sayilarCarpimi=sayi1*sayi2;
+        System.out.println(sayilarCarpimi);
+    }
+    public  static  void sayiBolumu(double sayi1, double sayi2){
+        double sayilarBolumu=sayi1/sayi2;
+        System.out.println(sayilarBolumu);
+    }
+    public  static  void sayiFarki(int sayi1, int sayi2){
+        int sayilarFarki=sayi1-sayi2;
+        System.out.println(sayilarFarki);
+    }
+    public static  void hafsaninNotu(int notHafsa){
         if (notHafsa<45){
             System.out.println("Hafsa notun F kaldin otur.");
         } else if (notHafsa>=45 & notHafsa <60) {
