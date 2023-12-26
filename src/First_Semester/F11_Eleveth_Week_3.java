@@ -13,7 +13,7 @@ public class F11_Eleveth_Week_3 {
     }
     public static void bekirinHiziniHesapla(int speedBekir){
 
-        if (speedBekir<=50){
+        if (speedBekir<=51){
             System.out.println("Bekir su an cezalik bir durum yok");
         } else if (speedBekir>50 & speedBekir <=70) {
             System.out.println("Bekir su an 180 dolar odemelisin");
@@ -22,7 +22,6 @@ public class F11_Eleveth_Week_3 {
         } else if (speedBekir>90 & speedBekir <=110) {
             System.out.println("Bekir su an 350 dolar odemelisin");
         } else {
-
             System.out.println("Bekir su an ehliyeti birakmalisin!");
         }
     }
