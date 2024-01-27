@@ -32,7 +32,8 @@ public class F08_Eighth_Week {
             if (jahveListesi[i]=="ali"){
                 System.out.println(jahveListesi[i]);
             }
-
+            System.out.println("=====================================");
+            System.out.println(jahveListesi[i]);
             // Oncelikle sayilardan olusan bir array olusturup daha sonra
             // arrayin elemanlarinin toplamin yazdiran bir program yaziniz.
         }

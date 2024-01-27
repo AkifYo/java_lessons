@@ -11,8 +11,9 @@ public class F07_Seventh_Week_3 {
         //int timesUser= scan.nextInt();
         int totalNumbers=0;
         for (int i = 0; i <5; i++) {
-            totalNumbers=totalNumbers+i;
+            totalNumbers=i;
+            System.out.println(totalNumbers);
         }
-        System.out.println(totalNumbers);
+
     }
 }
